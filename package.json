@@ -1,0 +1,74 @@
+{
+    "name": "autoheader",
+    "displayName": "AutoHeader",
+    "description": "Add headers to your files",
+    "version": "0.0.1",
+    "publisher": "schnjulian",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "activationEvents": [
+        "onCommand:extension.addHeader"
+    ],
+    "main": "./out/extension",
+
+    "contributes": {
+    
+            "title" : "AutoHeader",
+            "commands": [
+            {
+                "command": "extension.addHeader",
+                "title": "AutoHeader",
+                "category": "Tools"
+            }
+            
+            ],
+
+            "icon": {
+                "light":  "./icon.svg",
+                "dark":  "./icon.svg"
+            },
+"configuration":{
+        "properties" : {
+            "autoheader.header.header":{
+                "type": "string",
+                "default": "Copyright (C) <year> <name> <email> <github>\nThis file is part of PROJECT.\nPROJECT must not be copied and/or distributed without the express permission of <name>\n\n",
+                "markdownDescription": "Header template: Use tags below to automatically fill in your contact information"
+            },
+            "autoheader.header.name":{
+                "type" : "string",
+                "default": "name",
+                "markdownDescription": "Specifies the devloper's name. Usage: <name>"
+            },
+            "autoheader.header.email":{
+                "type" : "string",
+                "default": "e@mail.com",
+                "markdownDescription": "Specifies the devloper's email address. Usage: <email>"
+            },
+            "autoheader.header.github":{
+                "type" : "string",
+                "default": "www.github.com",
+                "markdownDescription": "Specifies the devloper's github link. Usage: <github>"
+            }
+        }
+    }
+    },
+
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "eslint . --ext .ts,.tsx",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.0",
+        "@typescript-eslint/eslint-plugin": "^3.0.2",
+        "@typescript-eslint/parser": "^3.0.2",
+        "eslint": "^7.1.0",
+        "typescript": "^3.9.4",
+        "@types/vscode": "^1.32.0"
+    }
+}
