@@ -1,5 +1,9 @@
 # AutoHeader - Header generator
 
+<img src="logoPrev.png" align="right"
+     title="AutoHeader Icon by Julian Schnabel" width="120" height="120">
+
+
 ## What does AutoHeader do?
 **Add automatic generated headers to you source code.** Without the hassle of adding your personal infomration manually.
 
