@@ -2,7 +2,7 @@
     "name": "autoheader",
     "displayName": "AutoHeader",
     "description": "Add headers to your files",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "julianschnabel",
     "engines": {
         "vscode": "^1.32.0"
@@ -33,8 +33,8 @@
             ],
 
             "icon": {
-                "light":  "./icon.svg",
-                "dark":  "./icon.svg"
+                "light":  "./icon.png",
+                "dark":  "./icon.png"
             },
 "configuration":{
         "properties" : {
