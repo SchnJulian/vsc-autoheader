@@ -1,4 +1,4 @@
-# AutoHeader 
+# AutoHeader - Header generator
 
 ## What does AutoHeader do?
 **Add automatic generated headers to you source code.** Without the hassle of adding your personal infomration manually.
