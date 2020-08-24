@@ -3,7 +3,7 @@
     "displayName": "AutoHeader",
     "description": "Add headers to your files",
     "version": "0.0.1",
-    "publisher": "schnjulian",
+    "publisher": "julianschnabel",
     "engines": {
         "vscode": "^1.32.0"
     },
@@ -14,6 +14,11 @@
         "onCommand:extension.addHeader"
     ],
     "main": "./out/extension",
+
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/schnjulian/vsc-autoheader.git"
+    },
 
     "contributes": {
     
