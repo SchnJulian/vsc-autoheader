@@ -1,9 +1,5 @@
 # AutoHeader - Header generator
 
-<img src="logoPrev.png" align="right"
-     title="AutoHeader Icon by Julian Schnabel" width="120" height="120">
-
-
 ## What does AutoHeader do?
 **Add automatic generated headers to you source code.** Without the hassle of adding your personal infomration manually.
 
@@ -15,9 +11,9 @@ Just define tags in the settings and you can use:
 - `<date>`	: Current date
 - `<year>`	: Current year
 
-![Before](sc_before.png)
+![Before](/images/sc_before.gif)
 ⬇️⬇️⬇️
-![After](sc_after.png)
+![After](/images/sc_after.gif)
 
 `shift` + `cmd`+ `p`
 
