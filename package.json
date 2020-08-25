@@ -1,8 +1,8 @@
 {
     "name": "autoheader",
     "displayName": "AutoHeader",
-    "description": "Add headers to your files",
-    "version": "1.0.3",
+    "description": "Add customizable headers to your files - Supports every language!",
+    "version": "1.1.0",
     "publisher": "julianschnabel",
     "engines": {
         "vscode": "^1.32.0"
